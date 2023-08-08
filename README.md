@@ -48,7 +48,8 @@ This application generates different documents based on your requirements by ena
 1) Replace placeholders in document
 2) Filter sections from document
 
-![diagram_cropped](https://github.com/cadencjk/document-generator/assets/63772723/e9bb4afa-f206-40f0-983c-7f5dd3c90c24)
+![diagram_cropped](https://github.com/cadencjk/document-generator/assets/63772723/fb149bcd-477e-4427-a378-cbb7039f8970)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -76,29 +77,34 @@ This .exe application can only be run on Windows. You may run it on Mac using th
 ## Usage
 For the placeholders you wish to replace in your document, please enclose your placeholders with the following brackets ‘{ ’  and ‘ }’. You can add placeholders in your header and footer as well.
 
-![image](https://github.com/cadencjk/document-generator/assets/63772723/95c402b8-3103-45a6-92f8-8ba2496f4ee7)
+![Screenshot 2023-08-08 181758](https://github.com/cadencjk/document-generator/assets/63772723/d393b467-5484-47eb-bff3-faa4b72a6f75)
+
 
 
 For different sections to be recognized by the application, please ensure that the style is a “Heading” Style in Microsoft Word.
 
-![image](https://github.com/cadencjk/document-generator/assets/63772723/07963a27-c623-4191-ab44-1b6be9607b29)
+![Screenshot 2023-08-08 181920](https://github.com/cadencjk/document-generator/assets/63772723/246e8c0c-7fda-46b9-9189-018e435bd109)
+
 
 
 ### Edit your own template
 To customize your own document, choose “Upload your custom Word Document Template” followed by clicking the source button on the right side. The only format available is .docx. Click “Next” when done.
 
-![image](https://github.com/cadencjk/document-generator/assets/63772723/9e81459d-3e56-4762-95ad-aefac3e79ecf)
+![Screenshot 2023-08-08 182014](https://github.com/cadencjk/document-generator/assets/63772723/65d3b3fa-6298-43f2-8068-fccf2d8c2422)
+
 
 
 If your template contains the correct placeholder prerequisite, it will show up in this page. You should replace these placeholders with the corresponding values in the “Value” column. Note that the values cannot be left blank.
 
-![image](https://github.com/cadencjk/document-generator/assets/63772723/99533153-8e09-40aa-9875-2e463e9f099d)
+![Screenshot 2023-08-08 182111](https://github.com/cadencjk/document-generator/assets/63772723/177d301c-2636-4627-8d99-27d4f9fd10b9)
+
 
 
 Click on “Filter sections from current document” if you wish to select the sections in this template. Else, click “Insert sections from other documents” if you wish to import sections from other Word Documents.
 Fill up your preferred output path, then click “Select Sections”. A section tree should show up in the box below. You may select the sections and subsections you wish to filter.
 
-![image](https://github.com/cadencjk/document-generator/assets/63772723/390a7b92-238e-4f9e-a5dc-40170cc2dabf)
+![Screenshot 2023-08-08 182226](https://github.com/cadencjk/document-generator/assets/63772723/1500fb85-8108-4ae9-a051-4a8812ab0a88)
+
 
 
 Click “Generate” and your file should be exported to your desired output path. It should not take more than 1 second to generate per document.
@@ -106,13 +112,15 @@ Click “Generate” and your file should be exported to your desired output pat
 ### Create a new template
 If you wish to insert sections to a new cover page, click on “Create a new template” in the application. Click “Next” when completed.
 
-![image](https://github.com/cadencjk/document-generator/assets/63772723/39e1598b-f03d-4091-9a34-759a5deccc5c)
+![Screenshot 2023-08-08 182346](https://github.com/cadencjk/document-generator/assets/63772723/4d98a1f8-061f-448f-bc9e-133fda85fe02)
+
 
 Fill up the corresponding placeholder values as described earlier.
 
 Click on “Insert sections from other documents”, fill up the input/output path boxes and click “Select Sections”. Your input folder can contain multiple Word Document files.
 
-![image](https://github.com/cadencjk/document-generator/assets/63772723/d4ba602d-2b5c-4531-80c0-ebd8644e810a)
+![Screenshot 2023-08-08 182514](https://github.com/cadencjk/document-generator/assets/63772723/21ce9128-e097-42d7-b36c-b2465c5c5acc)
+
 
 
 Click “Generate” and your files should be exported to your desired output path. It should not take more than 1 second to generate per document.
@@ -120,19 +128,21 @@ Click “Generate” and your files should be exported to your desired output pa
 ### Backup and Restore Placeholders Values
 If you wish to save the values you have typed in for the placeholders, check the “Save this template” box and choose an output location in the file box. The file (.xml) will be saved to your desired location upon clicking “Next”.
 
-![image](https://github.com/cadencjk/document-generator/assets/63772723/fd00c76f-c14f-479c-8dcf-059160195cab)
+![Screenshot 2023-08-08 182721](https://github.com/cadencjk/document-generator/assets/63772723/45e38ee2-b515-436e-9615-b0f8a4f4b0d7)
+
 
 
 Alternatively, if you wish to restore a previously saved file, click the “Restore” button at the top right-hand corner of the table. Choose an appropriate file (.xml) and your values will be loaded back. 
 
-![image](https://github.com/cadencjk/document-generator/assets/63772723/3e4272d0-066e-45b2-a025-a41216d1d929)
+![Screenshot 2023-08-08 182806](https://github.com/cadencjk/document-generator/assets/63772723/b6ff65f1-7fd6-4c70-bec0-88bd9dbcc542)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Customization
 You can customize some settings for your accessibility. Navigate to “Config > ConfigGenerator.xml” and edit in your favorite text editor.
 
-![image](https://github.com/cadencjk/document-generator/assets/63772723/17da265f-fff1-47e5-88f6-6da4f8b51686)
+![Screenshot 2023-08-08 183052](https://github.com/cadencjk/document-generator/assets/63772723/237647c9-7319-45ec-a6e5-7c004203908b)
+
 
 In the XML file, you can choose your opening and closing placeholders. By default, this is set to ‘{’ and ‘}’. Please do not use the same character for both.
 You can also customize your path for quicker accessibility when selecting the files and folders.
