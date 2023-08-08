@@ -129,6 +129,14 @@ Alternatively, if you wish to restore a previously saved file, click the “Rest
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Customization
+You can customize some settings for your accessibility. Navigate to “Config > ConfigGenerator.xml” and edit in your favorite text editor.
+
+![image](https://github.com/cadencjk/document-generator/assets/63772723/17da265f-fff1-47e5-88f6-6da4f8b51686)
+
+In the XML file, you can choose your opening and closing placeholders. By default, this is set to ‘{’ and ‘}’. Please do not use the same character for both.
+You can also customize your path for quicker accessibility when selecting the files and folders.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 Enjoy!
-
