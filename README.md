@@ -76,34 +76,58 @@ This .exe application can only be run on Windows. You may run it on Mac using th
 ## Usage
 For the placeholders you wish to replace in your document, please enclose your placeholders with the following brackets ‘{ ’  and ‘ }’. You can add placeholders in your header and footer as well.
 
+![image](https://github.com/cadencjk/document-generator/assets/63772723/95c402b8-3103-45a6-92f8-8ba2496f4ee7)
+
+
 For different sections to be recognized by the application, please ensure that the style is a “Heading” Style in Microsoft Word.
+
+![image](https://github.com/cadencjk/document-generator/assets/63772723/07963a27-c623-4191-ab44-1b6be9607b29)
 
 
 ### Edit your own template
 To customize your own document, choose “Upload your custom Word Document Template” followed by clicking the source button on the right side. The only format available is .docx. Click “Next” when done.
 
+![image](https://github.com/cadencjk/document-generator/assets/63772723/9e81459d-3e56-4762-95ad-aefac3e79ecf)
+
+
 If your template contains the correct placeholder prerequisite, it will show up in this page. You should replace these placeholders with the corresponding values in the “Value” column. Note that the values cannot be left blank.
+
+![image](https://github.com/cadencjk/document-generator/assets/63772723/99533153-8e09-40aa-9875-2e463e9f099d)
+
 
 Click on “Filter sections from current document” if you wish to select the sections in this template. Else, click “Insert sections from other documents” if you wish to import sections from other Word Documents.
 Fill up your preferred output path, then click “Select Sections”. A section tree should show up in the box below. You may select the sections and subsections you wish to filter.
+
+![image](https://github.com/cadencjk/document-generator/assets/63772723/390a7b92-238e-4f9e-a5dc-40170cc2dabf)
+
 
 Click “Generate” and your file should be exported to your desired output path. It should not take more than 1 second to generate per document.
 
 ### Create a new template
 If you wish to insert sections to a new cover page, click on “Create a new template” in the application. Click “Next” when completed.
 
+![image](https://github.com/cadencjk/document-generator/assets/63772723/39e1598b-f03d-4091-9a34-759a5deccc5c)
+
 Fill up the corresponding placeholder values as described earlier.
 
 Click on “Insert sections from other documents”, fill up the input/output path boxes and click “Select Sections”. Your input folder can contain multiple Word Document files.
+
+![image](https://github.com/cadencjk/document-generator/assets/63772723/d4ba602d-2b5c-4531-80c0-ebd8644e810a)
+
 
 Click “Generate” and your files should be exported to your desired output path. It should not take more than 1 second to generate per document.
 
 ### Backup and Restore Placeholders Values
 If you wish to save the values you have typed in for the placeholders, check the “Save this template” box and choose an output location in the file box. The file (.xml) will be saved to your desired location upon clicking “Next”.
 
+![image](https://github.com/cadencjk/document-generator/assets/63772723/fd00c76f-c14f-479c-8dcf-059160195cab)
+
+
 Alternatively, if you wish to restore a previously saved file, click the “Restore” button at the top right-hand corner of the table. Choose an appropriate file (.xml) and your values will be loaded back. 
 
+![image](https://github.com/cadencjk/document-generator/assets/63772723/3e4272d0-066e-45b2-a025-a41216d1d929)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 Enjoy!
