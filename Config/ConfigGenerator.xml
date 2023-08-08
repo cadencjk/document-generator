@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DocumentGenerator>
+  <OpeningPlaceHolder>{</OpeningPlaceHolder>
+  <ClosingPlaceHolder>}</ClosingPlaceHolder>
+  <DefaultNewTemplatePath>\\Template\\Custom Template.docx</DefaultNewTemplatePath>
+  <DefaultExistingTemplatePath></DefaultExistingTemplatePath>
+  <DefaultFolderInputPath></DefaultFolderInputPath>
+  <DefaultFolderOutputPath></DefaultFolderOutputPath>
+</DocumentGenerator>
